@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Efes – Voyage Turkey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .city-hero-bg img,.iconic-img img,.food-main img,.landmark-img img,.vision-main img,.city-card-bg img,.home-hero-bg img{width:100%;height:100%;object-fit:cover;display:block;}
+    .city-hero-bg,.iconic-img,.food-main,.landmark-img,.city-card-bg{overflow:hidden;font-size:0;}
+    .city-card-bg{position:relative;}
+    .city-card-bg{position:absolute!important;inset:0;overflow:hidden;} .city-card-bg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;transition:transform .75s ease;} .city-card:hover .city-card-bg img{transform:scale(1.12);}
+    .iconic-img:hover img,.landmark-img:hover img{transform:scale(1.05);transition:transform .7s ease;}
+    .city-hero:hover .city-hero-bg img{transform:scale(1.04);transition:transform .9s ease;}
+  </style>
+</head>
+<body><div id="loader"><div class="loader-wm">Voyage<span>Turkey</span></div><div class="loader-track"><div class="loader-fill" id="loader-fill"></div></div></div>
+<div id="cursor"></div><div id="cursor-ring"></div>
+<div id="page-overlay"></div>
+<div id="toast"></div><nav id="nav" class="dark-nav">
+  <a href="../index.html" class="nav-logo">Voyage<span>Turkey</span></a>
+  <ul class="nav-links"><li><a href="../pages/istanbul.html">İstanbul</a></li><li><a href="../pages/antalya.html">Antalya</a></li><li><a href="../pages/cappadocia.html">Kapadokya</a></li><li><a href="../pages/ephesus.html"  class="active">Efes</a></li><li><a href="../pages/pamukkale.html">Pamukkale</a></li><li><a href="../pages/bodrum.html">Bodrum</a></li><li><a href="../pages/trabzon.html">Trabzon</a></li><li><a href="../pages/mardin.html">Mardin</a></li><li><a href="../pages/ankara.html">Ankara</a></li><li><a href="../pages/konya.html">Konya</a></li></ul>
+  <div class="nav-right">
+    <button class="nav-search" aria-label="Ara">&#128269;</button>
+    <a href="../index.html#contact" class="btn-nav">Seyahatini Planla</a>
+  </div>
+</nav>
+<section class="city-hero">
+  <div class="city-hero-bg"><img src="../images/hero_ephesus_real.jpg" alt="Efes"></div>
+  <div class="city-hero-overlay"></div>
+  <div class="city-hero-content">
+    <div class="city-badge">&#10022; ANTİK BAŞKENT</div>
+    <h1 class="city-hero-title">Efes</h1>
+    <p class="city-hero-desc">Dünyanın en iyi korunmuş antik kentlerinden biri olan Efes, Yunan ve Roma medeniyetlerinin görkemli izlerini taşır.</p>
+    <div class="city-hero-cta">
+      <a href="../index.html#contact" class="btn-primary">&#128506;&#65039; Haritayı Keşfet</a>
+      <a href="../index.html" class="btn-outline">&#8592; Tüm Destinasyonlar</a>
+    </div>
+  </div>
+</section>
+
+<section class="iconic-section">
+  <div class="container">
+    <div class="iconic-grid">
+      <div class="iconic-img reveal"><img src="../images/iconic_ephesus_real.jpg" alt="Efes Antik Dünyanın Başkenti"></div>
+      <div class="iconic-text">
+        <span class="sec-label reveal">Tarihin İzleri</span>
+        <h2 class="sec-title reveal d1">Antik Dünyanın Başkenti</h2>
+        <p class="sec-text reveal d2">Efes, MÖ 10. yüzyılda kurulan ve zamanında Akdeniz'in en büyük şehirlerinden biri olan tarihi bir Yunan kolonisidir. Artemis Tapınağı'na ev sahipliği yapan şehir, Roma döneminde Asya'nın başkentiydi.</p>
+        <p class="sec-text reveal d3">Bugün UNESCO Dünya Mirası olarak korunan Efes antik kenti, büyük tiyatro, Celsus Kütüphanesi ve mermer kaplı caddeleriyle ziyaretçileri büyülemektedir.</p>
+        <div class="iconic-stats reveal d4">
+          <div><div class="ist-num">MÖ 10.yy</div><div class="ist-lbl">Kuruluş</div></div>
+          <div><div class="ist-num">250 bin</div><div class="ist-lbl">Antik Nüfus</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="food-section">
+  <div class="container">
+    <span class="sec-label reveal">Selçuk'un Lezzetleri</span>
+    <h2 class="sec-title reveal d1">Ege'nin Sofrasında</h2>
+    <div class="food-grid" style="margin-top:48px;">
+      <div>
+        <div class="food-main reveal"><img src="../images/food_ephesus_real.jpg" alt="Zeytinyağlı Mezeler"></div>
+        <div class="food-main-caption reveal d1">Zeytinyağlı Mezeler</div>
+        <p class="food-main-text reveal d2">Ege'ye özgü zeytinyağlı sarma, biber dolması ve taze sebzelerden oluşan muhteşem bir sofra.</p>
+      </div>
+      <div class="food-side reveal d2">
+        <div class="food-card">
+          <div class="food-card-img" style="overflow:hidden;"><img src="../images/food_fish_ephesus.jpg" alt="Ege Balıkları" style="width:100%;height:100%;object-fit:cover;"></div>
+          <div class="food-card-body"><div class="food-card-name">Ege Balıkları</div><p class="food-card-desc">Ege'nin tertemiz sularından çıkan taze balıklar, mangalda pişirilerek servis edilir.</p></div>
+        </div>
+        <div class="food-card">
+          <div class="food-card-img" style="overflow:hidden;"><img src="../images/food_wine_ephesus.jpg" alt="Yerel Şarap" style="width:100%;height:100%;object-fit:cover;"></div>
+          <div class="food-card-body"><div class="food-card-name">Yerel Şarap</div><p class="food-card-desc">Bölgenin verimli bağlarından elde edilen kadim Ege şarapları.</p></div>
+        </div>
+        <div class="food-cta-box">
+          <div><div class="food-cta-title">Selçuk Pazarı</div><div class="food-cta-sub">Her Cumartesi kurulan tarihi çarşı.</div></div>
+          <a href="../index.html#contact" class="btn-ghost" style="color:var(--gold);border-color:rgba(200,150,60,.3);">Tur Başvur &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="landmarks-section">
+  <div class="container">
+    <span class="sec-label reveal">Mutlaka Görülmesi Gerekenler</span>
+    <h2 class="sec-title reveal d1">İkonik <em>Simgeler</em></h2>
+    <div style="margin-top:56px;">
+      <div class="landmark-item ltr reveal">
+        <div class="landmark-img"><img src="../images/lm1_ephesus_real.jpg" alt="Celsus Kütüphanesi"></div>
+        <div><div class="landmark-num">01</div><div class="landmark-name">Celsus Kütüphanesi</div>
+        <p class="landmark-text">MS 2. yüzyılda inşa edilen ve antik dünyanın üçüncü büyük kütüphanesi olan Celsus, 12.000 papirüs rulonu barındırıyordu. İkonik cephesi Efes'in simgesidir.</p>
+        <a href="../index.html#contact" class="btn-ghost">&#128506;&#65039; Tarihi İncele &#8594;</a></div>
+      </div>
+      <div class="landmark-item rtl reveal">
+        <div class="landmark-img"><img src="../images/lm2_ephesus_real.jpg" alt="Büyük Tiyatro"></div>
+        <div><div class="landmark-num">02</div><div class="landmark-name">Büyük Tiyatro</div>
+        <p class="landmark-text">24.000 kişilik kapasitesiyle antik dünyanın en büyük tiyatrolarından biri. Aziz Paul'ün burada vaaz verdiği söylenir.</p>
+        <a href="../index.html#contact" class="btn-ghost">&#128506;&#65039; Tiyatroyu Gez &#8594;</a></div>
+      </div>
+      <div class="landmark-item ltr reveal">
+        <div class="landmark-img"><img src="../images/lm3_ephesus_real.jpg" alt="Artemis Tapınağı"></div>
+        <div><div class="landmark-num">03</div><div class="landmark-name">Artemis Tapınağı</div>
+        <p class="landmark-text">Dünyanın Yedi Harikası'ndan biri olan Artemis Tapınağı'ndan günümüze tek bir sütun kalmıştır; ancak bu bile antik dünyanın büyüklüğünü gösterir.</p>
+        <a href="../index.html#contact" class="btn-ghost">&#128506;&#65039; Harikayı Keşfet &#8594;</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2 class="cta-band-title reveal">Antik dünyanın izinde yolculuğa hazır mısınız?</h2>
+    <p class="cta-band-sub reveal d1">Celsus'tan Büyük Tiyatro'ya, Efes sizi bekliyor.</p>
+    <div class="reveal d2"><a href="../index.html#contact" class="btn-primary" style="font-size:13px;padding:16px 36px;">&#8962; Ana Sayfaya Dön &#8594;</a></div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="../index.html" class="footer-brand">Voyage<span>Turkey</span></a>
+        <p class="footer-tagline">&#169; 2024 VoyageTurkey. Modern Anadolu'lu Karakteri'ni Yansıtıyor.</p>
+        <div class="footer-social"><a href="#">&#128248;</a><a href="#">&#128216;</a><a href="#">&#128038;</a><a href="#">&#9654;&#65039;</a></div>
+      </div>
+      <div>
+        <span class="footer-col-title">Destinasyonlar</span>
+        <ul class="footer-links"><li><a href="../pages/istanbul.html">İstanbul</a></li><li><a href="../pages/antalya.html">Antalya</a></li><li><a href="../pages/cappadocia.html">Kapadokya</a></li><li><a href="../pages/ephesus.html">Efes</a></li><li><a href="../pages/pamukkale.html">Pamukkale</a></li></ul>
+      </div>
+      <div>
+        <span class="footer-col-title">Destinasyonlar</span>
+        <ul class="footer-links"><li><a href="../pages/bodrum.html">Bodrum</a></li><li><a href="../pages/trabzon.html">Trabzon</a></li><li><a href="../pages/mardin.html">Mardin</a></li><li><a href="../pages/ankara.html">Ankara</a></li><li><a href="../pages/konya.html">Konya</a></li></ul>
+      </div>
+      <div>
+        <span class="footer-col-title">İletişim</span>
+        <ul class="footer-links">
+          <li><a href="../index.html#contact">Bize Ulaşın</a></li>
+          <li><a href="../index.html">Ana Sayfa</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&#169; 2024 Voyage Turkey. Tüm hakları saklıdır.</span>
+      <span>Anadolu'dan sevgilerle &#10084;&#65039;</span>
+    </div>
+  </div>
+</footer><script src="../js/main.js"></script></body></html>

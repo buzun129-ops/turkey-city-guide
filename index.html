@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voyage Turkey – Türkiye'nin Eşsiz Mirasını Keşfedin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .city-hero-bg img,.iconic-img img,.food-main img,.landmark-img img,.vision-main img,.city-card-bg img,.home-hero-bg img{width:100%;height:100%;object-fit:cover;display:block;}
+    .city-hero-bg,.iconic-img,.food-main,.landmark-img,.city-card-bg{overflow:hidden;font-size:0;}
+    .city-card-bg{position:absolute;inset:0;overflow:hidden;}
+    .city-card:hover .city-card-bg img{transform:scale(1.12);transition:transform .75s ease;}
+    .iconic-img:hover img,.landmark-img:hover img{transform:scale(1.05);transition:transform .7s ease;}
+    .city-hero:hover .city-hero-bg img{transform:scale(1.04);transition:transform .9s ease;}
+  </style>
+</head>
+<body><div id="loader"><div class="loader-wm">Voyage<span>Turkey</span></div><div class="loader-track"><div class="loader-fill" id="loader-fill"></div></div></div>
+<div id="cursor"></div><div id="cursor-ring"></div>
+<div id="page-overlay"></div>
+<div id="toast"></div><nav id="nav" class="">
+  <a href="index.html" class="nav-logo">Voyage<span>Turkey</span></a>
+  <ul class="nav-links"><li><a href="pages/istanbul.html">İstanbul</a></li><li><a href="pages/antalya.html">Antalya</a></li><li><a href="pages/cappadocia.html">Kapadokya</a></li><li><a href="pages/ephesus.html">Efes</a></li><li><a href="pages/pamukkale.html">Pamukkale</a></li><li><a href="pages/bodrum.html">Bodrum</a></li><li><a href="pages/trabzon.html">Trabzon</a></li><li><a href="pages/mardin.html">Mardin</a></li><li><a href="pages/ankara.html">Ankara</a></li><li><a href="pages/konya.html">Konya</a></li></ul>
+  <div class="nav-right">
+    <button class="nav-search" aria-label="Ara">&#128269;</button>
+    <a href="index.html#contact" class="btn-nav">Seyahatini Planla</a>
+  </div>
+</nav>
+<section class="home-hero">
+
+  <!-- ═══ HERO SLİDESHOW ═══ -->
+  <div class="hero-slideshow">
+    <div class="hero-slide active" style="background-image:url('images/hero_cappadocia.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('images/hero_istanbul.jpg')"></div>
+  </div>
+
+  <!-- Slide göstergesi -->
+  <div class="hero-slide-dots">
+    <span class="hero-dot active" data-slide="0"></span>
+    <span class="hero-dot" data-slide="1"></span>
+  </div>
+
+  <!-- Şehir etiketi -->
+  <div class="hero-slide-label" id="heroLabel">Kapadokya</div>
+
+  <div class="home-hero-grid"></div>
+  <div class="home-hero-overlay"></div>
+  <div class="home-hero-content">
+    <div class="hero-eyebrow">&#10022; AKDENİZ'İN MÜCEVHERİ</div>
+    <h1 class="home-hero-title">Türkiye'nin <em>Eşsiz</em><br>Mirasını Keşfedin</h1>
+    <p class="home-hero-sub">Journey through millennia of history. From the bustling bazaars of Istanbul to the surreal landscapes of Cappadocia.</p>
+    <div class="home-hero-actions">
+      <a href="#cities" class="btn-primary">Keşfe Başla</a>
+      <a href="#vision" class="btn-outline">Haritayı Gör</a>
+    </div>
+  </div>
+  <div class="hero-scroll-hint"><div class="hero-scroll-bar"></div>Aşağı Kaydır</div>
+</section>
+
+<section id="vision">
+  <div class="container">
+    <div class="vision-grid">
+      <div class="vision-img-stack reveal">
+        <div class="vision-main"><img src="images/vision_turkey.jpg" alt="Türkiye"></div>
+        <div class="vision-badge"><div class="vision-badge-icon">&#128214;</div><div class="vision-badge-text">Her Anı Korumak İçin Buradayız</div></div>
+      </div>
+      <div class="vision-text">
+        <span class="sec-label reveal">Voyage Turkey Hakkında</span>
+        <h2 class="sec-title reveal d1">Türkiye İçin Seçkin <em>Vizyonumuz</em></h2>
+        <p class="sec-text reveal d2">Voyage Turkey bir seyahat rehberinden daha fazlasıdır; modern gezginler için dijital bir sığınaktır. Misyonumuz, antik miras ile çağdaş lüks arasındaki boşluğu doldurmaktır.</p>
+        <p class="sec-text reveal d3">Türkiye'nin en önemli 10 tarihi ve kültürel çevresini özenle seçip size Akdeniz'in ruhuna sürükleyici bir yol haritası sunduk.</p>
+        <div class="vision-check reveal d4">Uzmanlarıca Seçilmiş Destinasyonlar</div>
+        <div style="margin-top:28px" class="reveal d5"><a href="#cities" class="btn-ghost">Destinasyonları İncele &#8594;</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cities">
+  <div class="container">
+    <div class="cities-head">
+      <div>
+        <span class="sec-label" style="color:rgba(200,150,60,.8)">İLK 10</span>
+        <h2 class="sec-title reveal">Efsanevi Şehirler</h2>
+      </div>
+      <p class="cities-desc reveal d2">Tarihin nefes aldığı ve modernliğin geliştiği destinasyonların keskin koleksiyonu.</p>
+    </div>
+    <div class="cities-grid">
+<a href="pages/istanbul.html" class="city-card reveal ">
+  <div class="city-card-bg bg-istanbul"><img src="images/card_istanbul_real.jpg" alt="İstanbul"></div>
+  <div class="city-card-overlay"></div>
+  <div class="city-card-info"><div class="city-card-name">İstanbul</div><div class="city-card-tag">İki kıtanın kalbi</div></div>
+</a><a href="pages/antalya.html" class="city-card reveal d1">
+  <div class="city-card-bg bg-antalya"><img src="images/card_antalya_real.jpg" alt="Antalya"></div>
+  <div class="city-card-overlay"></div>
+  <div class="city-card-info"><div class="city-card-name">Antalya</div><div class="city-card-tag">Turkuaz kıyılar</div></div>
+</a><a href="pages/cappadocia.html" class="city-card reveal d2">
+  <div class="city-card-bg bg-cappadocia"><img src="images/card_cappadocia_real.jpg" alt="Kapadokya"></div>
+  <div class="city-card-overlay"></div>
+  <div class="city-card-info"><div class="city-card-name">Kapadokya</div><div class="city-card-tag">Peri bacaları</div></div>
+</a><a href="pages/ephesus.html" class="city-card reveal d3">
+  <div class="city-card-bg bg-ephesus"><img src="images/card_ephesus_real.jpg" alt="Efes"></div>
+  <div class="city-card-overlay"></div>
+  <div class="city-card-info"><div class="city-card-name">Efes</div><div class="city-card-tag">Antik başkent</div></div>
+</a><a href="pages/pamukkale.html" class="city-card reveal d4">
+  <div class="city-card-bg bg-pamukkale"><img src="images/card_pamukkale_real.jpg" alt="Pamukkale"></div>
+  <div class="city-card-overlay"></div>
+  <div class="city-card-info"><div class="city-card-name">Pamukkale</div><div class="city-card-tag">Beyaz termal havuzlar</div></div>
+</a><a href="pages/bodrum.html" class="city-card reveal ">
+  <div class="city-card-bg bg-bodrum"><img src="images/card_bodrum_real.jpg" alt="Bodrum"></div>
+  <div class="city-card-overlay"></div>
+  <div class="city-card-info"><div class="city-card-name">Bodrum</div><div class="city-card-tag">Mavi yolculuk</div></div>
+</a><a href="pages/trabzon.html" class="city-card reveal d1">
+  <div class="city-card-bg bg-trabzon"><img src="images/card_trabzon_real.jpg" alt="Trabzon"></div>
+  <div class="city-card-overlay"></div>
+  <div class="city-card-info"><div class="city-card-name">Trabzon</div><div class="city-card-tag">Karadeniz'in incisi</div></div>
+</a><a href="pages/mardin.html" class="city-card reveal d2">
+  <div class="city-card-bg bg-mardin"><img src="images/card_mardin_real.jpg" alt="Mardin"></div>
+  <div class="city-card-overlay"></div>
+  <div class="city-card-info"><div class="city-card-name">Mardin</div><div class="city-card-tag">Taş şehir</div></div>
+</a><a href="pages/ankara.html" class="city-card reveal d3">
+  <div class="city-card-bg bg-ankara"><img src="images/card_ankara_real.jpg" alt="Ankara"></div>
+  <div class="city-card-overlay"></div>
+  <div class="city-card-info"><div class="city-card-name">Ankara</div><div class="city-card-tag">Başkentin ruhu</div></div>
+</a><a href="pages/konya.html" class="city-card reveal d4">
+  <div class="city-card-bg bg-konya"><img src="images/card_konya_real.jpg" alt="Konya"></div>
+  <div class="city-card-overlay"></div>
+  <div class="city-card-info"><div class="city-card-name">Konya</div><div class="city-card-tag">Mevlana'nın şehri</div></div>
+</a>    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="contact-box reveal">
+      <div>
+        <h2 class="contact-title">Yolculuğunuzu Birlikte Tasarlayalım</h2>
+        <p class="contact-text">Türk kültürü veya ziyaretinizi planlamak hakkında sorularınız mı var? Yerel rehberlerimizle ulaşın.</p>
+        <div class="contact-info">
+          <div class="ci"><span class="ci-icon">&#128205;</span> Beyoğlu, İstanbul, TR</div>
+          <div class="ci"><span class="ci-icon">&#9993;&#65039;</span> hello@voyageturkey.com</div>
+          <div class="ci"><span class="ci-icon">&#128222;</span> +90 212 555 0100</div>
+        </div>
+      </div>
+      <div>
+        <div class="form-row">
+          <div class="form-group"><label>Ad/Soyad</label><input type="text" placeholder="Emre Can"></div>
+          <div class="form-group"><label>E-posta Adresi</label><input type="email" placeholder="emre@voyage.com"></div>
+        </div>
+        <div class="form-group" style="margin-bottom:13px"><label>İlgi Duyulan Destinasyon</label>
+          <select>
+            <option>İstanbul</option><option>Kapadokya</option><option>Antalya</option>
+            <option>Efes</option><option>Pamukkale</option><option>Bodrum</option>
+            <option>Trabzon</option><option>Mardin</option><option>Ankara</option><option>Konya</option>
+          </select>
+        </div>
+        <div class="form-group" style="margin-bottom:0"><label>Mesajınız</label><textarea placeholder="Hayalinizdeki gezi bize anlatın..."></textarea></div>
+        <button class="btn-submit" id="submitBtn">Talep Gönder</button>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="footer-brand">Voyage<span>Turkey</span></a>
+        <p class="footer-tagline">&#169; 2024 VoyageTurkey. Modern Anadolu'lu Karakteri'ni Yansıtıyor.</p>
+        <div class="footer-social"><a href="#">&#128248;</a><a href="#">&#128216;</a><a href="#">&#128038;</a><a href="#">&#9654;&#65039;</a></div>
+      </div>
+      <div>
+        <span class="footer-col-title">Destinasyonlar</span>
+        <ul class="footer-links"><li><a href="pages/istanbul.html">İstanbul</a></li><li><a href="pages/antalya.html">Antalya</a></li><li><a href="pages/cappadocia.html">Kapadokya</a></li><li><a href="pages/ephesus.html">Efes</a></li><li><a href="pages/pamukkale.html">Pamukkale</a></li></ul>
+      </div>
+      <div>
+        <span class="footer-col-title">Destinasyonlar</span>
+        <ul class="footer-links"><li><a href="pages/bodrum.html">Bodrum</a></li><li><a href="pages/trabzon.html">Trabzon</a></li><li><a href="pages/mardin.html">Mardin</a></li><li><a href="pages/ankara.html">Ankara</a></li><li><a href="pages/konya.html">Konya</a></li></ul>
+      </div>
+      <div>
+        <span class="footer-col-title">İletişim</span>
+        <ul class="footer-links">
+          <li><a href="index.html#contact">Bize Ulaşın</a></li>
+          <li><a href="index.html">Ana Sayfa</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&#169; 2024 Voyage Turkey. Tüm hakları saklıdır.</span>
+      <span>Anadolu'dan sevgilerle &#10084;&#65039;</span>
+    </div>
+  </div>
+</footer><script src="js/main.js"></script></body></html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankara – Voyage Turkey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .city-hero-bg img,.iconic-img img,.food-main img,.landmark-img img,.vision-main img,.city-card-bg img,.home-hero-bg img{width:100%;height:100%;object-fit:cover;display:block;}
+    .city-hero-bg,.iconic-img,.food-main,.landmark-img,.city-card-bg{overflow:hidden;font-size:0;}
+    .city-card-bg{position:relative;}
+    .city-card-bg{position:absolute!important;inset:0;overflow:hidden;} .city-card-bg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;transition:transform .75s ease;} .city-card:hover .city-card-bg img{transform:scale(1.12);}
+    .iconic-img:hover img,.landmark-img:hover img{transform:scale(1.05);transition:transform .7s ease;}
+    .city-hero:hover .city-hero-bg img{transform:scale(1.04);transition:transform .9s ease;}
+  </style>
+</head>
+<body><div id="loader"><div class="loader-wm">Voyage<span>Turkey</span></div><div class="loader-track"><div class="loader-fill" id="loader-fill"></div></div></div>
+<div id="cursor"></div><div id="cursor-ring"></div>
+<div id="page-overlay"></div>
+<div id="toast"></div><nav id="nav" class="dark-nav">
+  <a href="../index.html" class="nav-logo">Voyage<span>Turkey</span></a>
+  <ul class="nav-links"><li><a href="../pages/istanbul.html">İstanbul</a></li><li><a href="../pages/antalya.html">Antalya</a></li><li><a href="../pages/cappadocia.html">Kapadokya</a></li><li><a href="../pages/ephesus.html">Efes</a></li><li><a href="../pages/pamukkale.html">Pamukkale</a></li><li><a href="../pages/bodrum.html">Bodrum</a></li><li><a href="../pages/trabzon.html">Trabzon</a></li><li><a href="../pages/mardin.html">Mardin</a></li><li><a href="../pages/ankara.html"  class="active">Ankara</a></li><li><a href="../pages/konya.html">Konya</a></li></ul>
+  <div class="nav-right">
+    <button class="nav-search" aria-label="Ara">&#128269;</button>
+    <a href="../index.html#contact" class="btn-nav">Seyahatini Planla</a>
+  </div>
+</nav>
+<section class="city-hero">
+  <div class="city-hero-bg"><img src="../images/hero_ankara_real.jpg" alt="Ankara"></div>
+  <div class="city-hero-overlay"></div>
+  <div class="city-hero-content">
+    <div class="city-badge">&#10022; BAŞKENT</div>
+    <h1 class="city-hero-title">Ankara</h1>
+    <p class="city-hero-desc">Türkiye Cumhuriyeti'nin modern başkenti; Cumhuriyet mirası, müzeleri ve canlı üniversite kültürüyle.</p>
+    <div class="city-hero-cta">
+      <a href="../index.html#contact" class="btn-primary">&#128506;&#65039; Haritayı Keşfet</a>
+      <a href="../index.html" class="btn-outline">&#8592; Tüm Destinasyonlar</a>
+    </div>
+  </div>
+</section>
+
+<section class="iconic-section">
+  <div class="container">
+    <div class="iconic-grid">
+      <div class="iconic-img reveal"><img src="../images/iconic_ankara_real.jpg" alt="Cumhuriyet'in Kalbi"></div>
+      <div class="iconic-text">
+        <span class="sec-label reveal">Tarihin İzleri</span>
+        <h2 class="sec-title reveal d1">Cumhuriyet'in Kalbi</h2>
+        <p class="sec-text reveal d2">Ankara, 1923'te Türkiye Cumhuriyeti'nin kurulmasıyla birlikte başkent ilan edilmiş ve hızla modern bir metropole dönüşmüştür. Atatürk'ün vizyonuyla şekillenen şehir, Cumhuriyet mimarisinin özgün örneklerini barındırır.</p>
+        <p class="sec-text reveal d3">Anıtkabir, Anadolu Medeniyetleri Müzesi, Kocatepe Camii ve tarihi Ankara Kalesi, şehrin hem modern hem de köklü tarihini yansıtan simgelerdir.</p>
+        <div class="iconic-stats reveal d4">
+          <div><div class="ist-num">1923</div><div class="ist-lbl">Başkent İlanı</div></div>
+          <div><div class="ist-num">5 milyon+</div><div class="ist-lbl">Nüfus</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="food-section">
+  <div class="container">
+    <span class="sec-label reveal">İç Anadolu Mutfağı</span>
+    <h2 class="sec-title reveal d1">Ankara'nın Sofrasında</h2>
+    <div class="food-grid" style="margin-top:48px;">
+      <div>
+        <div class="food-main reveal"><img src="../images/food_ankara_real.jpg" alt="Ankara Tava"></div>
+        <div class="food-main-caption reveal d1">Ankara Tava</div>
+        <p class="food-main-text reveal d2">Kuzu etinin taze sebzeler ve özel baharatlarla toprak tencerede pişirilmesiyle hazırlanan bu yöresel lezzet, Ankara mutfağının vazgeçilmezidir.</p>
+      </div>
+      <div class="food-side reveal d2">
+        <div class="food-card">
+          <div class="food-card-img" style="overflow:hidden;"><img src="../images/food_etliekmek_ankara.jpg" alt="Etli Ekmek" style="width:100%;height:100%;object-fit:cover;"></div>
+          <div class="food-card-body"><div class="food-card-name">Etli Ekmek</div><p class="food-card-desc">İnce yufkanın üzerine kıyma harcı sürülerek fırınlanan Ankara'nın meşhur sokak lezzeti.</p></div>
+        </div>
+        <div class="food-card">
+          <div class="food-card-img" style="overflow:hidden;"><img src="../images/food_halva_ankara.jpg" alt="Ankara Helvası" style="width:100%;height:100%;object-fit:cover;"></div>
+          <div class="food-card-body"><div class="food-card-name">Ankara Helvası</div><p class="food-card-desc">İnce irmikten yapılan ve kaymaklı servis edilen geleneksel helva.</p></div>
+        </div>
+        <div class="food-cta-box">
+          <div><div class="food-cta-title">Kızılay Restoranları</div><div class="food-cta-sub">Başkentin en iyi yemek mekanları.</div></div>
+          <a href="../index.html#contact" class="btn-ghost" style="color:var(--gold);border-color:rgba(200,150,60,.3);">Tur Başvur &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="landmarks-section">
+  <div class="container">
+    <span class="sec-label reveal">Mutlaka Görülmesi Gerekenler</span>
+    <h2 class="sec-title reveal d1">İkonik <em>Simgeler</em></h2>
+    <div style="margin-top:56px;">
+      <div class="landmark-item ltr reveal">
+        <div class="landmark-img"><img src="../images/lm1_ankara_real.jpg" alt="Anıtkabir"></div>
+        <div><div class="landmark-num">01</div><div class="landmark-name">Anıtkabir</div>
+        <p class="landmark-text">Mustafa Kemal Atatürk'ün anıt mezarı olan Anıtkabir, Cumhuriyet'in ruhunu yansıtan bir müze ve ulusal anma mekanıdır.</p>
+        <a href="../index.html#contact" class="btn-ghost">&#128506;&#65039; Anıtkabir'i Ziyaret Et &#8594;</a></div>
+      </div>
+      <div class="landmark-item rtl reveal">
+        <div class="landmark-img"><img src="../images/lm2_ankara_real.jpg" alt="Anadolu Medeniyetleri Müzesi"></div>
+        <div><div class="landmark-num">02</div><div class="landmark-name">Anadolu Medeniyetleri Müzesi</div>
+        <p class="landmark-text">Dünyanın en önemli arkeoloji müzelerinden biri. Neolitik dönemden Osmanlı'ya uzanan Anadolu uygarlıklarının eşsiz eserlerini barındırır.</p>
+        <a href="../index.html#contact" class="btn-ghost">&#128506;&#65039; Müzeyi Gez &#8594;</a></div>
+      </div>
+      <div class="landmark-item ltr reveal">
+        <div class="landmark-img"><img src="../images/lm3_ankara_real.jpg" alt="Ankara Kalesi"></div>
+        <div><div class="landmark-num">03</div><div class="landmark-name">Ankara Kalesi</div>
+        <p class="landmark-text">Şehrin merkezine hakim tepede yükselen Ankara Kalesi, Galatlar, Romalılar ve Bizanslılar tarafından inşa edilmiş tarihi bir yapıdır.</p>
+        <a href="../index.html#contact" class="btn-ghost">&#128506;&#65039; Kaleyi Gez &#8594;</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <h2 class="cta-band-title reveal">Türkiye'nin başkentini keşfetmeye hazır mısınız?</h2>
+    <p class="cta-band-sub reveal d1">Anıtkabir, müzeler ve Ankara Kalesi sizi bekliyor.</p>
+    <div class="reveal d2"><a href="../index.html#contact" class="btn-primary" style="font-size:13px;padding:16px 36px;">&#8962; Ana Sayfaya Dön &#8594;</a></div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="../index.html" class="footer-brand">Voyage<span>Turkey</span></a>
+        <p class="footer-tagline">&#169; 2024 VoyageTurkey. Modern Anadolu'lu Karakteri'ni Yansıtıyor.</p>
+        <div class="footer-social"><a href="#">&#128248;</a><a href="#">&#128216;</a><a href="#">&#128038;</a><a href="#">&#9654;&#65039;</a></div>
+      </div>
+      <div>
+        <span class="footer-col-title">Destinasyonlar</span>
+        <ul class="footer-links"><li><a href="../pages/istanbul.html">İstanbul</a></li><li><a href="../pages/antalya.html">Antalya</a></li><li><a href="../pages/cappadocia.html">Kapadokya</a></li><li><a href="../pages/ephesus.html">Efes</a></li><li><a href="../pages/pamukkale.html">Pamukkale</a></li></ul>
+      </div>
+      <div>
+        <span class="footer-col-title">Destinasyonlar</span>
+        <ul class="footer-links"><li><a href="../pages/bodrum.html">Bodrum</a></li><li><a href="../pages/trabzon.html">Trabzon</a></li><li><a href="../pages/mardin.html">Mardin</a></li><li><a href="../pages/ankara.html">Ankara</a></li><li><a href="../pages/konya.html">Konya</a></li></ul>
+      </div>
+      <div>
+        <span class="footer-col-title">İletişim</span>
+        <ul class="footer-links">
+          <li><a href="../index.html#contact">Bize Ulaşın</a></li>
+          <li><a href="../index.html">Ana Sayfa</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&#169; 2024 Voyage Turkey. Tüm hakları saklıdır.</span>
+      <span>Anadolu'dan sevgilerle &#10084;&#65039;</span>
+    </div>
+  </div>
+</footer><script src="../js/main.js"></script></body></html>
